@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+  <title>How To Cook</title>
+  <link rel="stylesheet" href="./reset.css">
+  <link rel="stylesheet" href="./globalStyles.css">
+  <link rel="stylesheet" href="./components.css">
+  <!-- Style CSS  -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="./home.css">
+</head>
+
+<body>
+  <!-- Nav Section -->
+  <div class="nav">
+    <div class="container">
+      <div class="nav__wrapper">
+        <a href="./index.html" class="logo">
+          <img src="./images/Icon.png" alt="How To Cook">
+        </a>
+        <nav>
+          <div class="nav__icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+              class="feather feather-menu">
+              <line x1="3" y1="12" x2="21" y2="12" />
+              <line x1="3" y1="6" x2="21" y2="6" />
+              <line x1="3" y1="18" x2="21" y2="18" />
+            </svg>
+          </div>
+          <div class="nav__bgOverlay"></div>
+          <ul class="nav__list">
+            <div class="nav__close">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="feather feather-x">
+                <line x1="18" y1="6" x2="6" y2="18" />
+                <line x1="6" y1="6" x2="18" y2="18" />
+              </svg>
+            </div>
+            <div class="nav__list__wrapper">
+              <li><a class="nav__link" href="./index.html">Home</a></li>
+              <li><a class="nav__link" href="./menu.html">Menu</a></li>
+              <li><a class="nav__link" href="./about.html">About</a></li>
+              <li><a class="nav__link" href="./contact.html">Contact</a></li>
+            </div>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </div>
+  <!-- End Nav Section -->
+
+  <!-- Hero Section -->
+  <section id="hero">
+    <div class="container">
+      <div class="hero__wrapper">
+        <div class="hero__left" data-aos="fade-left">
+          <div class="hero__left__wrapper">
+
+            <h1 class="hero__heading">The flavor of tradition</h1>
+            <p class="hero__info">
+              <p>Short Description</p>
+            </p>
+            <div class="button__wrapper">
+              <a href="./menu.html" class="btn primary-btn">Explore Now!</a>
+            </div>
+          </div>
+        </div>
+        <div class="hero__right" data-aos="fade-right">
+          <div class="hero__imgWrapper">
+            <img src="./images/heroImg.png">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Hero Section -->
+
+  <!-- Our Specials Section -->
+  <section id="ourSpecials" data-aos="fade-up">
+    <div class="container">
+      <div class="ourSpecials__wrapper">
+        <div class="ourSpecials__left">
+          <div class="ourSpecials__item">
+            <div class="ourSpecials__item__img">
+              <img src="./images/food-3.png" alt="food img">
+            </div>
+            <h2 class="ourSpecials__item__title">
+              Sweet Potato Fries Bowl
+            </h2>
+
+            <div class="ourSpecials__item__stars">
+              <img src="./images/4star.png" alt="4 star">
+            </div>
+            <p class="ourSpecials__item__text">
+              These Sweet Potato Fries bowl are a glorious, messy plate of goodness. Crispy sweet potato fries loaded
+              with lots of fresh summer vegetables and a lime ranch. By adding a seasoning blend with chipotle powder,
+              garlic, and onion, these spicy sweet potato fries are full of flavor.
+            </p>
+          </div>
+          <div class="ourSpecials__item">
+            <div class="ourSpecials__item__img">
+              <img src="./images/food-1.png" alt="food img">
+            </div>
+            <h2 class="ourSpecials__item__title">
+              Vegan Salad bowl
+            </h2>
+
+            <div class="ourSpecials__item__stars">
+              <img src="./images/4star.png" alt="4 star">
+            </div>
+            <p class="ourSpecials__item__text">
+              Vegan salad bowl are immensely satisfying with any combination of whole grains, pulses, noodles, raw or
+              cooked fruits, and veggies all topped off with a delicious sauce or dressing – each bite is an explosion
+              of flavors and textures.
+            </p>
+          </div>
+        </div>
+        <div class="ourSpecials__right">
+          <h2 class="ourSpecials__title">
+            Our Specials
+          </h2>
+          <p class="ourSpecials__text">
+            All of our food is prepared daily at our restaurants to ensure the highest quality, freshest meals are
+            delivered to our customers
+          </p>
+          <a href="./booking.html" class="btn primary-btn">Search Now!</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Our Specials Section -->
+
+  <!-- Top Dishes -->
+  <section id="dishGrid" data-aos="fade-up">
+    <div class="container">
+      <h2 class="dishGrid__title">
+        Top Dishes
+      </h2>
+      <div class="dishGrid__wrapper">
+        <div class="dishGrid__item">
+          <div class="dishGrid__item__img">
+            <img src="./images/food-1.png" alt="food img">
+          </div>
+          <div class="dishGrid__item__info">
+            <h3 class="dishGrid__item__title">
+              Name of the Food
+            </h3>
+            <div class="dishGrid__item__stars">
+              <img src="./images/4star.png" alt="4 star">
+            </div>
+            <p>Short Description</p>
+          </div>
+        </div>
+        <div class="dishGrid__item">
+          <div class="dishGrid__item__img">
+            <img src="./images/food-2.png" alt="food img">
+          </div>
+          <div class="dishGrid__item__info">
+            <h3 class="dishGrid__item__title">
+              Name of the Food
+            </h3>
+            <div class="dishGrid__item__stars">
+              <img src="./images/4star.png" alt="4 star">
+            </div>
+            <p>Short Description</p>
+          </div>
+        </div>
+        <div class="dishGrid__item">
+          <div class="dishGrid__item__img">
+            <img src="./images/food-7.png" alt="food img">
+          </div>
+          <div class="dishGrid__item__info">
+            <h3 class="dishGrid__item__title">
+              Name of the Food
+            </h3>
+            <div class="dishGrid__item__stars">
+              <img src="./images/4star.png" alt="4 star">
+            </div>
+            <p>Short Description</p>
+          </div>
+        </div>
+        <div class="dishGrid__item">
+          <div class="dishGrid__item__img">
+            <img src="./images/food-3.png" alt="food img">
+          </div>
+          <div class="dishGrid__item__info">
+            <h3 class="dishGrid__item__title">
+              Name of the Food
+            </h3>
+            <div class="dishGrid__item__stars">
+              <img src="./images/4star.png" alt="4 star">
+            </div>
+            <p>Short Description</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Top Dishes -->
+
+  <!-- Favourite Dish Section -->
+  <section id="favdish" data-aos="fade-up">
+    <div class="container">
+      <div class="favdish__wrapper">
+        <div class="favdish__images">
+          <div class="favdish__img1">
+            <img src="./images/food-8.png" alt="Food img">
+          </div>
+          <div class="favdish__img2">
+            <img src="./images/food-9.png" alt="Food img">
+          </div>
+        </div>
+        <div class="favdish__info">
+          <h3 class="favdish__text">Favourite Chicken Dish</h3>
+          <h3 class="favdish__title">Cuban Mojo Chicken</h3>
+          <div class="favdish__stars">
+            <img src="./images/4star.png" alt="4 stars">
+          </div>
+          <a class="btn primary-btn" href="./menu.html">Search Now!</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Favourite Dish Section -->
+
+  <!-- Why Us section -->
+  <section id="whyUs">
+    <div class="container">
+      <div class="whyUs__wrapper">
+        <div class="whyUs__left" data-aos="fade-right">
+          <h2 class="whyUs__title">
+            Why Choosing Our Website?
+          </h2>
+          <p class="whyUs__text">
+            Long/ Short Description
+          </p>
+        </div>
+        <div class="whyUs__right" data-aos="fade-left">
+          <div class="whyUs__items__wrapper">
+            <div class="whyUs__item">
+              <div class="whyUs__item__icon">
+                <img src="./images/whyUs-icon1.svg" alt="quality Food">
+              </div>
+              <p class="whyUs__item__text">Description</p>
+            </div>
+            <div class="whyUs__item">
+              <div class="whyUs__item__icon">
+                <img src="./images/whyUs-icon2.svg" alt="Classical taste">
+              </div>
+              <p class="whyUs__item__text">Description</p>
+            </div>
+            <div class="whyUs__item">
+              <div class="whyUs__item__icon">
+                <img src="./images/whyUs-icon3.svg" alt="Skilled chef">
+              </div>
+              <p class="whyUs__item__text">Description</p>
+            </div>
+            <div class="whyUs__item">
+              <div class="whyUs__item__icon">
+                <img src="./images/whyUs-icon4.svg" alt="Best service">
+              </div>
+              <p class="whyUs__item__text">Description</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Why Us section -->
+
+  <!-- Members' Opinion Section -->
+  <section id="mbopinion">
+    <div class="container">
+      <div class="mbopinion__wrapper" data-aos="fade-up">
+        <h2 class="mbopinion__title">Members' Opinion</h2>
+        <div class="mbopinion__items__wrapper">
+          <div class="mbopinion__item">
+            <div class="mbopinion__item__img">
+              <img src="./images/member-1.png" alt="Minh Thong">
+            </div>
+            <div class="mbopinion__item__info">
+              <h3 class="mbopinion__item__name">Minh Thong</h3>
+              <p class="mbopinion__item__text">
+                <p>Short Description</p>
+              </p>
+            </div>
+          </div>
+          <div class="mbopinion__item">
+            <div class="mbopinion__item__img">
+              <img src="./images/member-1.png" alt="Hong Nhan">
+            </div>
+            <div class="mbopinion__item__info">
+              <h3 class="mbopinion__item__name">Hong Nhan</h3>
+              <p class="mbopinion__item__text">
+                <p>Short Description</p>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Members' Opinion Section -->
+
+  <!-- Website Info Section -->
+  <section id="webInfo" data-aos="fade-up">
+    <div class="container">
+      <div class="webInfo__wrapper">
+        <div class="webInfo__item">
+          <div class="webInfo__icon">
+            <img src="./images/address-icon.svg" alt="clock icon">
+          </div>
+          <h3 class="webInfo__title">
+            RMIT - Saigon
+          </h3>
+          <p class="webInfo__text">
+            Address
+          </p>
+        </div>
+        <div class="webInfo__item">
+          <div class="webInfo__icon">
+            <img src="./images/phone-icon.svg" alt="clock icon">
+          </div>
+          <h3 class="webInfo__title">
+            +84 934484908
+          </h3>
+          <p class="webInfo__text">
+            Call Now
+          </p>
+        </div>
+        <div class="webInfo__item">
+          <div class="webInfo__icon">
+            <img src="./images/phone-icon.svg" alt="clock icon">
+          </div>
+          <h3 class="webInfo__title">
+            Short Description
+          </h3>
+          <p class="webInfo__text">
+            Short Description
+          </p>
+        </div>
+        <div class="webInfo__item">
+          <div class="webInfo__icon">
+            <img src="./images/phone-icon.svg" alt="clock icon">
+          </div>
+          <h3 class="webInfo__title">
+            Short Description
+          </h3>
+          <p class="webInfo__text">
+            Short Description
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Website Info Section -->
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer__wrapper">
+        <div class="footer__col1">
+          <div class="footer__logo">
+            <img src="./images/Icon.png" alt="How To Cook">
+          </div>
+          <p class="footer__desc">
+            Short Description
+          </p>
+          <div class="footer__socials">
+          </div>
+        </div>
+
+        <!-- Links Footer -->
+        <div class="footer__col2">
+          <h3 class="footer__text__title">
+            Links
+          </h3>
+          <ol class="footer__text">
+            <li>
+              <a href="/index.html">Home</a>
+            </li>
+            <li>
+              <a href="./menu.html">Menu</a>
+            </li>
+            <li>
+              <a href="./about.html">About Us</a>
+            </li>
+            <li>
+              <a href="./contact.html">contact Us</a>
+            </li>
+            <li>
+              <a href="#">Privacy Policy</a>
+            </li>
+          </ol>
+        </div>
+        <!-- End Links Footer -->
+
+        <!-- Support Footer -->
+        <div class="footer__col3">
+          <h3 class="footer__text__title">
+            Support
+          </h3>
+          <ol class="footer__text">
+            <li>
+              <a href="#">Contact</a>
+            </li>
+            <li>
+              <a href="#">Support</a>
+            </li>
+            <li>
+              <a href="#">Feedback</a>
+            </li>
+          </ol>
+        </div>
+        <!-- End Support Footer -->
+
+        <!-- Contact Footer -->
+        <div class="footer__col4">
+          <h3 class="footer__text__title">
+            Contact
+          </h3>
+          <ol class="footer__text">
+            <li>
+              <a href="#">+84 934484908</a>
+            </li>
+            <li>
+              <a href="#">s3886334@rmit.edu.vn</a>
+            </li>
+            <li>
+              <a>Leader "Thong"</a>
+            </li>
+          </ol>
+        </div>
+        <!-- End Contact Footer -->
+      </div>
+    </div>
+  </footer>
+  <div id="copyright">
+    <div class="container">
+      <p class="copyright__text">
+        © copyright 2022 How To Cook | All rights reserved
+      </p>
+    </div>
+  </div>
+  <!-- End Footer -->
+
+  <!-- JScript -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script src="./main.js"></script>
+</body>
+
+</html>
